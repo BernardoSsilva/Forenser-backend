@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZhMFWSLe+A=",
+  "dgSpecHash": "eJp2vlfn+WM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj",
+  "projectFilePath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bernardo.silva\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\bernardo.silva\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",

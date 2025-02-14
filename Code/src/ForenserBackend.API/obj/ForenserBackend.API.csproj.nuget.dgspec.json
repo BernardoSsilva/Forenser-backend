@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj": {}
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj",
         "projectName": "ForenserBackend.API",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\ForenserBackend.API.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,27 +26,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj"
               }
             }
           }
@@ -60,7 +59,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -108,18 +108,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj",
         "projectName": "ForenserBackend.Application",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\ForenserBackend.Application.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -134,24 +134,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj"
               }
             }
           }
@@ -165,7 +164,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -200,18 +200,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj",
         "projectName": "ForenserBackend.Authentication",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -226,21 +226,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj"
               }
             }
           }
@@ -254,7 +253,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -285,18 +285,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj",
         "projectName": "ForenserBackend.Communication",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\ForenserBackend.Communication.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -311,15 +311,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj"
               }
             }
           }
@@ -333,7 +332,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -354,18 +354,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj",
         "projectName": "ForenserBackend.Domain",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -380,7 +380,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -398,7 +397,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -419,18 +419,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj",
         "projectName": "ForenserBackend.Exception",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -445,7 +445,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -463,7 +462,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -484,18 +484,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
+    "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj",
         "projectName": "ForenserBackend.Infrastructure",
-        "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\bernardo.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -510,18 +510,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Domain\\ForenserBackend.Domain.csproj"
               },
-              "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
-                "projectPath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj"
+              "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj": {
+                "projectPath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Exception\\ForenserBackend.Exception.csproj"
               }
             }
           }
@@ -535,7 +534,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -566,7 +566,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

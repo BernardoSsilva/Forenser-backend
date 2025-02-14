@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fCcwRqY0UM8=",
+  "dgSpecHash": "1y0GghybuYI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Infrastructure\\ForenserBackend.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bernardo.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\bernardo.silva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",

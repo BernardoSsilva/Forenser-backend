@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i8bY0R5+3i8=",
+  "dgSpecHash": "9HFOm3Hviwo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bernardo.silva\\Desktop\\Forenser\\Backend\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj",
+  "projectFilePath": "C:\\Users\\bernardo.silva\\Documents\\Forenser_BackEnd\\Code\\src\\ForenserBackend.Authentication\\ForenserBackend.Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bernardo.silva\\.nuget\\packages\\jwt\\10.1.1\\jwt.10.1.1.nupkg.sha512",
     "C:\\Users\\bernardo.silva\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",

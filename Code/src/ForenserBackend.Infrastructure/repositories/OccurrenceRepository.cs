@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ForenserBackend.Infrastructure.repositories
 {
-    public class OccurrenceRepository : IOccurenceRepository
+    public class OccurrenceRepository : IOccurrenceRepository
     {
         private readonly ForenserDbContext _context;
 
@@ -13,14 +13,14 @@ namespace ForenserBackend.Infrastructure.repositories
         {
             _context = context;
         }
-        public async Task CreateNewOccurence(OccurrenceEntity occurence)
+        public async Task CreateNewOccurrence(OccurrenceEntity occurrence)
         {
-            await _context.AddAsync(occurence);
+            await _context.AddAsync(occurrence);
         }
 
-        public async Task DeleteOccurence(string occurenceId)
+        public async Task DeleteOccurrence(string occurrenceId)
         {
-            var occurrenceToDelete = await _context.Occurrences.FirstOrDefaultAsync(occurrence => occurrence.Id == occurenceId);
+            var occurrenceToDelete = await _context.Occurrences.FirstOrDefaultAsync(occurrence => occurrence.Id == occurrenceId);
             if (occurrenceToDelete is null)
             {
                 throw new NotFoundException("Occurrence not found");
@@ -28,14 +28,14 @@ namespace ForenserBackend.Infrastructure.repositories
             _context.Remove(occurrenceToDelete);
         }
 
-        public async Task<List<OccurrenceEntity>> GetAllOccurences()
+        public async Task<List<OccurrenceEntity>> GetAllOccurrences()
         {
             return await _context.Occurrences.AsNoTracking().ToListAsync();
         }
 
-        public async Task<OccurrenceEntity> GetOccurenceDetailsById(string occurenceId)
+        public async Task<OccurrenceEntity> GetOccurrenceDetailsById(string occurrenceId)
         {
-            var occurrence = await _context.Occurrences.AsNoTracking().FirstOrDefaultAsync(occurrence => occurrence.Id == occurenceId);
+            var occurrence = await _context.Occurrences.AsNoTracking().FirstOrDefaultAsync(occurrence => occurrence.Id == occurrenceId);
             if (occurrence is null)
             {
                 throw new NotFoundException("Occurrence not found");
@@ -43,9 +43,11 @@ namespace ForenserBackend.Infrastructure.repositories
             return occurrence;
         }
 
-        public void UpdateOccurence(OccurrenceEntity occurenceNewData)
+        public void UpdateOccurrence(OccurrenceEntity occurrenceNewData)
         {
-            _context.Update(occurenceNewData);
+            _context.Update(occurrenceNewData);
         }
+
+     
     }
 }

@@ -17,7 +17,7 @@ namespace ForenserBackend.Infrastructure
             service.AddScoped<IUserRepository, UsersRepository>();
             service.AddScoped<IVehiclesRepository, VehiclesRepository>();
             service.AddScoped<IReportRepository, ReportRepository>();
-            service.AddScoped<IOccurenceRepository, OccurrenceRepository>();
+            service.AddScoped<IOccurrenceRepository, OccurrenceRepository>();
             service.AddScoped<IServiceScheduleRepository, ServiceScheduleRepository>();
             service.AddScoped<IPeopleRepository, PeoplesRepository>();
         }
