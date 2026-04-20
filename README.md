@@ -112,20 +112,6 @@ O projeto está passando por:
 * 🔙 Backend (versão antiga):
   https://github.com/BernardoSsilva/Forenser_BackEnd/tree/Old-Code
 
----
-
-## 👨‍💻 Contribuição
-
-Neste projeto, fui responsável por:
-
-* Idealização da solução
-* Desenvolvimento full stack
-* Integração com IA generativa
-* Estruturação inicial da aplicação
-* Planejamento e execução da refatoração completa
-
----
-
 ## 📈 Próximos Passos
 
 * Implementar nova arquitetura (DDD ou Clean Architecture)
@@ -157,6 +143,3 @@ A nova versão busca elevar o nível técnico da solução, transformando-o em u
 
 ---
 
-## 📞 Contato
-
-* GitHub: https://github.com/BernardoSsilva
