@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,14 +7,104 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Sex {
+  MALE
+  FEMALE
+}
 
-model User{
-  id String @id @default(uuid()) @map("user_id")
-  name String 
-  email String @unique
-  password String
-  phoneNumber String @unique
-  cpf String @unique
-  bornDate DateTime @default(now())
+enum IncidentReportType {
+  TRAFFIC_ACCIDENT
+  THEFT
+  DOMESTIC_VIOLENCE
+}
+
+enum LocationType {
+  RAILWAY
+  PUBLIC_ROAD
+  OTHER
+}
+
+model User {
+  id           String   @id @default(uuid()) @map("user_id")
+  name         String
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  phoneNumber  String   @unique @map("phone_number")
+  cpf          String   @unique
+  sex          Sex
+  birthDate    DateTime @map("birth_date")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  incidentReports IncidentReport[]
+  appointments    Appointment[]
+
   @@map("users")
+}
+
+model IncidentReport {
+  id           String             @id @default(uuid())
+  type         IncidentReportType
+  occurredAt   DateTime           @map("occurred_at")
+  occurredTime String             @map("occurred_time")
+  locationType LocationType       @map("location_type")
+  address      String
+  informantName String            @map("informant_name")
+  narrative    String
+
+  // Traffic accident specific fields
+  driverName       String? @map("driver_name")
+  vehiclesInvolved String? @map("vehicles_involved")
+
+  // Theft specific fields
+  propertyTaken Boolean? @map("property_taken")
+  stolenItems   String?  @map("stolen_items")
+
+  // Shared by theft and domestic violence
+  involvedViolence Boolean? @map("involved_violence")
+  victimName       String?  @map("victim_name")
+
+  userId String @map("user_id")
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  face Face?
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("incident_reports")
+}
+
+model Face {
+  id               String         @id @default(uuid())
+  imageUrl         String         @map("image_url")
+  description      String
+  incidentReportId String         @unique @map("incident_report_id")
+  incidentReport   IncidentReport @relation(fields: [incidentReportId], references: [id], onDelete: Cascade)
+  createdAt        DateTime       @default(now()) @map("created_at")
+
+  @@map("faces")
+}
+
+model Complaint {
+  id           String   @id @default(uuid())
+  reporterName String   @map("reporter_name")
+  location     String
+  description  String
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  @@map("complaints")
+}
+
+model Appointment {
+  id            String   @id @default(uuid())
+  requesterName String   @map("requester_name")
+  scheduledDate DateTime @map("scheduled_date")
+  scheduledTime String   @map("scheduled_time")
+
+  userId String @map("user_id")
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("appointments")
 }
