@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: forenser
+    volumes:
+      - forenser_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  forenser_postgres_data:
